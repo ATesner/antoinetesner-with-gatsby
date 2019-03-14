@@ -1,5 +1,5 @@
 ---
-path: '/first-post'
+path: '/utiliser-la-blockchain-pour-mon-projet'
 title: 'Dois-je utiliser la Blockchain pour mon projet ?'
 date: '2018-02-18'
 ---
