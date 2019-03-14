@@ -1,29 +1,37 @@
 $mygrey: #808080;
 
-.post {
-
-    h1, h2 {
-        padding-bottom: .7rem;
-        border-bottom: 1px solid $mygrey;
-    }
-
-    p {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    
-    blockquote {
-        font-style: italic;
-    }
-    
-    blockquote > p {
-        color: $mygrey;
-    }
-
-    a {
-        color: $mygrey;
-    }
-
-    ul {
-        list-style: none;
+.postcontainer {
+    width: 100%;
+    .post {
+        
+        .postheader, h2 {
+            padding-bottom: .7rem;
+            border-bottom: 1px solid $mygrey;
+        }
+        
+        .post-date {
+            color: $mygrey;
+            font-style: italic;
+        }
+        
+        p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        blockquote {
+            font-style: italic;
+        }
+        
+        blockquote > p {
+            color: $mygrey;
+        }
+        
+        a {
+            color: $mygrey;
+        }
+        
+        ul {
+            list-style: none;
+        }
     }
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 // import Helmet from 'react-helmet'
+import {Link} from 'gatsby'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import postStyles from './post.module.scss'
@@ -11,11 +12,15 @@ export default function Template({
     const { frontmatter, html } = markdownRemark
     return (
         <Layout>
-            <div className="post-container">
+            <Link to="/blog">Retour à la page blog</Link>
+            <br/><br/>
+            <div className={postStyles.postcontainer}>
                 <div className={postStyles.post}>
-                    <h1> {frontmatter.title} </h1>
+                    <div className={postStyles.postheader}>
+                        <h1> {frontmatter.title} </h1>
+                        <span className={postStyles.postDate}> publié le {frontmatter.date} </span>
+                    </div>
                     <br/>
-                    {/* <h2> {frontmatter.date} </h2> */}
                     <div className="post-content" 
                         dangerouslySetInnerHTML={{ __html: html }} 
                         />
@@ -24,7 +29,7 @@ export default function Template({
         </Layout>
     )
 }
-//date(formatString: "MMMM DD, YYYY")
+
 export const postQuery = graphql`
     query BlogPostByPath($path: String!) {
         markdownRemark(frontmatter: { path: { eq: $path } }) {
@@ -32,6 +37,7 @@ export const postQuery = graphql`
             frontmatter {
                 title
                 path
+                date(formatString: "DD-MM-YYYY")
             }
         }
     }
