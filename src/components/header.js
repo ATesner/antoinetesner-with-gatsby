@@ -14,18 +14,18 @@ const Header = ({ siteTitle }) => (
       {siteTitle}
     </Link>
     
-      <ul class="navigation-list">
+      <ul className="navigation-list">
 
-      <li class="navigation-item">
+      <li className="navigation-item">
         <Link to="/">Home</Link>
         </li>
-        <li class="navigation-item">
+        <li className="navigation-item">
       <Link to="/blog">Blog</Link>
         </li>
-        <li class="navigation-item">
+        <li className="navigation-item">
       <Link to="/project">Projet</Link>
         </li>
-        <li class="navigation-item">
+        <li className="navigation-item">
       <Link to="/about">Contact</Link>
         </li>
       </ul>
