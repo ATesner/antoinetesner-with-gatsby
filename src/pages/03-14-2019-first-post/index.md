@@ -1,6 +1,7 @@
 ---
 path: '/first-post'
 title: 'Dois-je utiliser la Blockchain pour mon projet ?'
+date: '2018-02-18'
 ---
 
 Ripple, IOTA, EOS, je pourrais écrire un article complet rien qu’en les citant. La création d’ICO et de Token a explosé en 2017.
@@ -22,29 +23,33 @@ D’accord mais demandez-vous quels seraient les bénéfices de cette décentral
 Pourquoi ne pas utiliser une simple base de données SQL, ou une application "basique" ? Les Smart Contracts sont difficiles à créer. Il faut trouver une personne ayant les compétences et ne pas se tromper lors du développement. **On ne développe pas un Smart Contract comme l’on développe une app mobile ou un site web.** Ils peuvent contenir des milliers, voir des millions d’euros, et on ne peut pas mettre à jour un Smart Contract facilement. Lorsque vous avez déployé votre Smart Contract dans la Blockchain, celui-ci fonctionne tout seul. Il est donc important de bien penser votre Smart Contract avant de le créer.
 
 ## Je veux améliorer la fidélité du consommateur
-Certains consommateurs ne dépensent pas leurs points de fidélité, car ils ne savent pas dans quoi les dépenser. Ou alors il est difficile de les dépenser en totalité. Remplacer les points de fidélité par des Tokens pourrait permettre de rendre échangeables ces points de fidélité entre consommateurs, ou même de les rendre échangeables contre de la monnaie.</p>
-&nbsp;</p>
-<h2><span style="color: #003366;"><strong>Je veux améliorer la valeur de mes consommateurs</strong></span></h2>
-Qu’est-ce qui rend votre Token utile ? Pourquoi vos clients voudront t-il s’en procurer ?</p>
-Ripple veut utiliser son Token pour faciliter les paiements dans le monde. Plus rapide, moins chers etc…</p>
-Avez-vous besoin d’une Blockchain pour apporter votre valeur à vous ? Ou une simple application ou site web suffit-il ?</p>
-Plus votre Blockchain a d’utilisateurs, plus le réseau est sécurisé. Quel plan avez-vous prévu pour avoir assez d’utilisateurs au lancement du projet ?</p>
-&nbsp;</p>
-<h2><span style="color: #003366;"><strong>Quel type de plateforme vais-je utiliser, une Blockchain publique ou une Blockchain privée ?</strong></span></h2>
-Une Blockchain publique&nbsp;<strong>vous permet d’accéder au réseau sans autorisation.</strong> Comme Bitcoin ou Ethereum. Il vous suffit de télécharger l’application et vous pouvez utiliser le réseau sans que personne ne vous en empêche.</p>
-Vous avez un site E-commerce et vous voulez utiliser la Blockchain pour faire payer vos clients ? Est-ce vraiment nécessaire de créer une Dapp ou un Token ? Pourquoi ne pas justement utiliser un réseau public déjà existant comme Bitcoin ?</p>
-Une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener">Blockchain privée</a> est une Blockchain où&nbsp;<strong>il vous faut une autorisation pour accéder au réseau.</strong></p>
-<em>«&nbsp;Mais pourquoi faire ça ! une Blockchain est faite pour être accessible à tous !&nbsp;»</em></p>
-Il y a plusieurs avantages à utiliser une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener">Blockchain privée</a>&nbsp;:</p>
-<ul>
-<li>Meilleur performance</li>
-<li>Plus de contrôle</li>
-<li>Plus de confidentialité</li>
-<li>…</li>
-</ul>
-Quand votre projet nécessite de grandes performances, il est préférable d’utiliser une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener">Blockchain privée</a>.</p>
-Si votre Blockchain sera utilisée par vos employés et que vous avez besoin de les identifier, <a href="https://hyperledger.org/projects/fabric" target="_blank" rel="noopener">Hyperledger Fabric</a> peut-être une bonne solution.</p>
-Lorsque vous avez besoin de confidentialité pour vos données, vous pouvez utiliser <a href="https://www.jpmorgan.com/global/Quorum" target="_blank" rel="noopener">Quorum</a>.</p>
-&nbsp;</p>
-<p>On ne lance pas un projet Blockchain parce-que c’est à la mode. Ce genre de projet est très coûteux. Finalement, avez-vous besoin de la Blockchain pour votre projet ? Ou pouvez-vous le mener à bien sans ?</p>
-</div>
+
+Certains consommateurs ne dépensent pas leurs points de fidélité, car ils ne savent pas dans quoi les dépenser. Ou alors il est difficile de les dépenser en totalité. Remplacer les points de fidélité par des Tokens pourrait permettre de rendre échangeables ces points de fidélité entre consommateurs, ou même de les rendre échangeables contre de la monnaie.
+
+## Je veux améliorer la valeur de mes consommateurs
+
+Qu’est-ce qui rend votre Token utile ? Pourquoi vos clients voudront t-il s’en procurer ?
+Ripple veut utiliser son Token pour faciliter les paiements dans le monde. Plus rapide, moins chers etc…  
+Avez-vous besoin d’une Blockchain pour apporter votre valeur à vous ? Ou une simple application ou site web suffit-il ?  
+Plus votre Blockchain a d’utilisateurs, plus le réseau est sécurisé. Quel plan avez-vous prévu pour avoir assez d’utilisateurs au lancement du projet ?
+
+## Quel type de plateforme vais-je utiliser, une Blockchain publique ou une Blockchain privée ?
+
+Une Blockchain publique **vous permet d’accéder au réseau sans autorisation.** Comme Bitcoin ou Ethereum. Il vous suffit de télécharger l’application et vous pouvez utiliser le réseau sans que personne ne vous en empêche.  
+Vous avez un site E-commerce et vous voulez utiliser la Blockchain pour faire payer vos clients ? Est-ce vraiment nécessaire de créer une Dapp ou un Token ? Pourquoi ne pas justement utiliser un réseau public déjà existant comme Bitcoin ?  
+Une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener" title="Différence blockchain privée publique">Blockchain privée</a> est une Blockchain où **il vous faut une autorisation pour accéder au réseau.**  
+
+> "Mais pourquoi faire ça ! une Blockchain est faite pour être accessible à tous !"
+
+Il y a plusieurs avantages à utiliser une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener" title="Avantages blockchain privée">Blockchain privée</a>:
+
+- Meilleur performance
+- Plus de contrôle
+- Plus de confidentialité
+- …
+
+Quand votre projet nécessite de grandes performances, il est préférable d’utiliser une <a href="http://antoinetesner.fr/public-private-blockchain/" target="_blank" rel="noopener" title="Pourquoi utiliser une blockchain privée" >Blockchain privée</a>.  
+Si votre Blockchain sera utilisée par vos employés et que vous avez besoin de les identifier, <a href="https://hyperledger.org/projects/fabric" target="_blank" rel="noopener nofollow" title="Hyperledger Fabric">Hyperledger Fabric</a> peut-être une bonne solution.  
+Lorsque vous avez besoin de confidentialité pour vos données, vous pouvez utiliser <a href="https://www.jpmorgan.com/global/Quorum" target="_blank" rel="noopener nofollow" title="Blockchain Quorum">Quorum</a>.
+
+On ne lance pas un projet Blockchain parce-que c’est à la mode. Ce genre de projet est très coûteux. Finalement, avez-vous besoin de la Blockchain pour votre projet ? Ou pouvez-vous le mener à bien sans ?

@@ -1,8 +1,12 @@
+$mygrey: #808080;
+
 .post {
-    h1 {
-        
+
+    h1, h2 {
+        padding-bottom: .7rem;
+        border-bottom: 1px solid $mygrey;
     }
-    
+
     p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     }
@@ -12,6 +16,14 @@
     }
     
     blockquote > p {
-        color: #808080;
+        color: $mygrey;
+    }
+
+    a {
+        color: $mygrey;
+    }
+
+    ul {
+        list-style: none;
     }
 }
