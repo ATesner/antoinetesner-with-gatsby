@@ -2,6 +2,11 @@ $mygrey: #808080;
 
 .postcontainer {
     width: 100%;
+    min-width: 300px;
+    margin: auto;
+    background-color: #F5F5F5;
+    padding: 10px 30px 10px 30px;
+
     .post {
         
         .postheader, h2 {
@@ -16,6 +21,7 @@ $mygrey: #808080;
         
         p {
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #000;
         }
         
         blockquote {

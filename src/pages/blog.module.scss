@@ -1,0 +1,29 @@
+.blogcontainer{
+    width: 100%;
+
+    
+    .bloglist {
+        list-style: none;
+    
+        li {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .blogpostdate {
+            font-style: italic;
+        }
+        
+        .blogpostdate {
+            min-width: 100px;
+        }
+        
+        .blogpostinfo {
+            margin-left: 10px;
+        }
+    
+        a {
+            margin-left: 0;
+        }
+    }
+}
