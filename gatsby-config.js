@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,7 +38,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [], // just in case those previously mentioned remark plugins sound cool :)
+        plugins: [ 'gatsby-remark-design-system' ], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
