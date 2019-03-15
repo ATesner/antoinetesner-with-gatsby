@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-remark-copy-linked-files`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -38,7 +39,17 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugins: [ 'gatsby-remark-design-system' ], // just in case those previously mentioned remark plugins sound cool :)
+        plugins: [ 
+          'gatsby-remark-design-system',
+          `gatsby-remark-copy-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 600,
+              linkImagesToOriginal: false
+            },
+          }
+        ], // just in case those previously mentioned remark plugins sound cool :)
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
