@@ -12,6 +12,7 @@ import { StaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import 'gatsby-remark-design-system/theme/gatsby-remark-design-system-theme.scss'
+import 'prismjs/themes/prism-okaidia.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
