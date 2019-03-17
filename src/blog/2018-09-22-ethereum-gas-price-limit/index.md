@@ -63,7 +63,7 @@ Je vais utiliser <a href="https://remix.ethereum.org" target="_blank" title="IDE
 
 Je vais utiliser la fonction "setNumber", qui se charge simplement de stocker un nombre dans le Smart Contract.Elle prend un nombre en paramètre. Je lui passe 5, et je fixe le gas limit à 3 000 000. Voici le résultat de la transaction :
 
-![gas limit ok](images/gas_limit_ok.Png)
+![gas limit ok](images/gas_limit_ok.png)
 
 Dans ce tableau, on va s’intéresser à 5 lignes :
 
