@@ -3,15 +3,17 @@ import Layout from "../components/layout";
 
 export default () => (
     <Layout>
-
-<form name="contact" method="POST" data-netlify="true">
-    <label>Your Name: <input type="text" name="name" required /></label>   
-    <label>Your Email: <input type="email" name="email" required /></label>
- 
-    <label>Message: <textarea name="message" required></textarea></label>
-    <button type="submit">Envoyer</button>
-
+        <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+  <p>
+    <label>Email: <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Message: <textarea name="message"></textarea></label>
+  </p>
+  <div data-netlify-recaptcha="true"></div>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>
-  
     </Layout>
 )
