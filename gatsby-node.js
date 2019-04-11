@@ -9,7 +9,8 @@ const path = require('path');
 
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
-    const postTemplate = path.resolve('src/templates/post.js');
+    const blogPostTemplate = path.resolve('src/templates/blog-post.js');
+    const projectPostTemplate = path.resolve('src/templates/project-post.js');
 
     return graphql(`{
         allMarkdownRemark {
@@ -20,6 +21,7 @@ exports.createPages = ({ actions, graphql }) => {
                     frontmatter {
                         title
                         path
+                        posttype
                     }
                 }
             }
@@ -29,10 +31,17 @@ exports.createPages = ({ actions, graphql }) => {
             return Promise.reject(res.errors);
         }
         res.data.allMarkdownRemark.edges.forEach(({node}) => {
-            createPage({
-                path: node.frontmatter.path,
-                component: postTemplate
-            })
+            if(node.frontmatter.posttype === 'project'){
+                createPage({
+                    path: node.frontmatter.path,
+                    component: projectPostTemplate
+                })
+            }else{
+                createPage({
+                    path: node.frontmatter.path,
+                    component: blogPostTemplate
+                })
+            }
         });
     })
 }

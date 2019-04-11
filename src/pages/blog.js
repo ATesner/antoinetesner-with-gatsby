@@ -34,7 +34,11 @@ export default ({ data }) => {
 
 export const blogQuery = graphql`
     query getAllBlogPosts {
-        allMarkdownRemark(limit: 10, sort: { order: DESC, fields: [frontmatter___date] }) {
+        allMarkdownRemark(
+            limit: 10, 
+            sort: { order: DESC, fields: [frontmatter___date] },
+            filter: { fileAbsolutePath: {regex: "\/blog/"} }
+            ) {
             edges {
                 node {
                     id
