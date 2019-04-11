@@ -1,4 +1,5 @@
 $mygrey: #808080;
+$linkColor : #F30034;
 
 .postcontainer {
     width: 100%;
@@ -26,6 +27,7 @@ $mygrey: #808080;
         
         blockquote {
             font-style: italic;
+            text-align: center;
         }
         
         blockquote > p {
@@ -33,7 +35,7 @@ $mygrey: #808080;
         }
         
         a {
-            color: $mygrey;
+            color: $linkColor;
         }
         
         ul {
