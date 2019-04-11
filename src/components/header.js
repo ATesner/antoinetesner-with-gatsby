@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/project">Projet</Link>
         </li>
         <li className="navigation-item">
-      <Link to="/about">Contact</Link>
+      <Link to="/contact">Contact</Link>
         </li>
       </ul>
     
