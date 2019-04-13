@@ -9,7 +9,7 @@ import styles from './index.module.css'
 //https://themes.gohugo.io/theme/hugo-coder-portfolio/
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Home" keywords={[`développeur`, `full stack`, `freelance`]} />
     
     <section className={styles.container}>
       <div className={styles.about}>
